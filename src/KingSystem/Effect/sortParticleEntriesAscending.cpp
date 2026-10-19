@@ -1,7 +1,6 @@
 #include "ParticleSort.h"
 
 namespace {
-
 [[gnu::always_inline]] bool comesBefore(const ParticleSortEntry& left,
                                         const ParticleSortEntry& right) {
   if (left.key != right.key)
@@ -25,7 +24,6 @@ namespace {
   }
   entries[root] = value;
 }
-
 }  // namespace
 
 extern "C" void sortParticleEntriesAscending(ParticleSortEntry* begin, ParticleSortEntry* end,
