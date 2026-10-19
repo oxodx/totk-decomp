@@ -3,9 +3,16 @@ address,name,kind
 # linker and in Ghidra. Names must be valid C/C++ identifiers.
 0x00004f20,sortParticleEntriesAscending,function
 0x00005ad0,sortParticleEntriesDescending,function
+0x000a4250,fillBytes,function
+0x02aa43c0,fillBytesImpl,function
 0x000a4360,findCharacter,function
 0x000a4500,compareStrings,function
 0x000a0688,insertStringRange,function
+0x000a5520,hashStringFnv1a,function
+0x000a4420,cloneCString,function
+0x000a42f0,freeCString,function
+0x000a59ec,copyOwnedString,function
+0x000a5b2c,destroyOwnedString,function
 0x000a40d0,isAsciiWhitespace,function
 0x02aa4690,findCharacterImpl,function
 0x02aa4310,stringLength,function

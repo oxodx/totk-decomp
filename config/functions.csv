@@ -9,6 +9,7 @@ address,size,name,status,source
 0x000a0660,0x28,appendString,replacement,src/KingSystem/Util/appendString.cpp
 0x000a40d0,0x2c,isAsciiWhitespace,replacement,src/KingSystem/Util/isAsciiWhitespace.cpp
 0x000a4100,0x1c,isNullOrEmpty,matching,src/KingSystem/Util/isNullOrEmpty.cpp
+0x000a4250,0x8,fillBytes,matching,src/KingSystem/Util/fillBytes.cpp
 0x000a4260,0x68,compareStringsIgnoreCase,replacement,src/KingSystem/Util/compareStringsIgnoreCase.cpp
 0x000a42d0,0x1c,copyBytesIfPresent,replacement,src/KingSystem/Util/copyBytesIfPresent.cpp
 0x000a4360,0x4,findCharacter,matching,src/KingSystem/Util/findCharacter.cpp
@@ -26,3 +27,6 @@ address,size,name,status,source
 0x000a4b00,0xb8,compareRangeToString,replacement,src/KingSystem/Util/compareRangeToString.cpp
 0x000a4bb8,0x48,startsWithRange,replacement,src/KingSystem/Util/startsWithRange.cpp
 0x000a4c00,0x40,rangesEqual,replacement,src/KingSystem/Util/rangesEqual.cpp
+0x000a5520,0x38,hashStringFnv1a,replacement,src/KingSystem/Util/hashStringFnv1a.cpp
+0x000a59ec,0x38,copyOwnedString,replacement,src/Havok/Common/copyOwnedString.cpp
+0x000a5b2c,0x14,destroyOwnedString,matching,src/Havok/Common/destroyOwnedString.cpp
