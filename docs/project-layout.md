@@ -2,8 +2,7 @@
 
 | Path                   | Purpose                                       | Commit it? |
 | ---------------------- | --------------------------------------------- | ---------- |
-| `src/`                 | Clean reconstructed C++                       | Yes        |
-| `include/`             | Reconstructed declarations and types          | Yes        |
+| `src/`                 | Reconstructed C++, declarations, and types    | Yes        |
 | `config/functions.csv` | Function boundaries, names, status, source    | Yes        |
 | `config/symbols.csv`   | Named bindings to original functions and data | Yes        |
 | `tools/`               | Setup, build, analysis, and install tooling   | Yes        |

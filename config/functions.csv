@@ -15,3 +15,12 @@ address,size,name,status,source
 0x000a45d0,0x30,findCharacterIndex,replacement,src/KingSystem/Util/findCharacterIndex.cpp
 0x000a4600,0x6c,findCharacterInRange,replacement,src/KingSystem/Util/findCharacterInRange.cpp
 0x000a4670,0x74,equalsBytes,replacement,src/KingSystem/Util/equalsBytes.cpp
+0x000a4954,0x78,trimAsciiWhitespace,replacement,src/KingSystem/Util/trimAsciiWhitespace.cpp
+0x000a49cc,0x28,findByteFromOffset,replacement,src/KingSystem/Util/findByteFromOffset.cpp
+0x000a49f4,0x7c,findByteSequence,replacement,src/KingSystem/Util/findByteSequence.cpp
+0x000a4a70,0x2c,findLastByte,replacement,src/KingSystem/Util/findLastByte.cpp
+0x000a4a9c,0x38,findByteIndexFrom,replacement,src/KingSystem/Util/findByteIndexFrom.cpp
+0x000a4ad4,0x2c,findLastByteIndex,replacement,src/KingSystem/Util/findLastByteIndex.cpp
+0x000a4b00,0xb8,compareRangeToString,replacement,src/KingSystem/Util/compareRangeToString.cpp
+0x000a4bb8,0x48,startsWithRange,replacement,src/KingSystem/Util/startsWithRange.cpp
+0x000a4c00,0x40,rangesEqual,replacement,src/KingSystem/Util/rangesEqual.cpp

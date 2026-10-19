@@ -4,8 +4,10 @@ address,name,kind
 0x000a4360,findCharacter,function
 0x000a4500,compareStrings,function
 0x000a0688,insertStringRange,function
+0x000a40d0,isAsciiWhitespace,function
 0x02aa4690,findCharacterImpl,function
 0x02aa4310,stringLength,function
 0x02aa47b0,locateCharacter,function
 0x02aa4680,copyMemory,function
 0x02aa4320,compareMemory,function
+0x02aa4740,findByteInRange,function

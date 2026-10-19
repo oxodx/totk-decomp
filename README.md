@@ -93,8 +93,7 @@ game functions without hard-coded addresses in its source.
 
 ```text
 config/       function and symbol metadata
-include/      reconstructed declarations
-src/          reconstructed C++
+src/          reconstructed C++, declarations, and types
 tools/        setup, build, checking, and analysis tools
 baserom/      generated local executable data (ignored)
 pseudocode/   generated Ghidra reference output (ignored)
