@@ -7,8 +7,8 @@ starter functions.
 
 ## Pick a path
 
-[:material-rocket-launch: Set up the project](getting-started.md){ .md-button .md-button--primary }
-[:material-code-braces: Make your first contribution](contributing.md){ .md-button }
+[Set up the project](getting-started.md){ .md-button .md-button--primary }
+[Make your first contribution](contributing.md){ .md-button }
 
 ## The basic idea
 
