@@ -1,0 +1,55 @@
+site_name: TOTK Decompilation Guide
+site_description: Beginner-friendly documentation for the TOTK matching decompilation project
+site_url: https://oxodx.github.io/totk-decomp/
+repo_url: https://github.com/oxodx/totk-decomp
+repo_name: totk-decomp
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: build/docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Use dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Use light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Beginner contribution guide: contributing.md
+  - Build and test: build-and-test.md
+  - Project layout: project-layout.md

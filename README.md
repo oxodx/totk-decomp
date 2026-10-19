@@ -112,4 +112,7 @@ reference for subsystem names, library structure, types, and the established
 Switch matching-decomp workflow. BOTW declarations must still be verified
 against TOTK rather than copied blindly.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the source workflow.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the source workflow, or preview the
+full searchable documentation site with `tools/docs.py`.
+
+Published documentation: <https://oxodx.github.io/totk-decomp/>
