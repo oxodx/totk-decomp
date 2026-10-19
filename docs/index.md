@@ -12,16 +12,18 @@
 ## What is this?
 
 This is an ongoing reverse-engineering project to understand and reimplement
-parts of *The Legend of Zelda: Tears of the Kingdom* for Nintendo Switch.
+parts of _The Legend of Zelda: Tears of the Kingdom_ for Nintendo Switch.
 
 The project combines readable C++ with exact AArch64 assembly. Reconstructed
 functions are compiled back into their original slots, while code that has not
 been decompiled remains untouched in your locally extracted executable.
 
-!!! warning "Important note"
-    This repository does **not** contain Nintendo executables, keys, game
-    assets, saves, or generated pseudocode. It cannot be used without a legally
-    dumped copy of your own game.
+<div class="admonition warning">
+<p class="admonition-title">Important note</p>
+<p>This repository does <strong>not</strong> contain Nintendo executables, keys,
+game assets, saves, or generated pseudocode. It cannot be used without a legally
+dumped copy of your own game.</p>
+</div>
 
 ## How does it work?
 
@@ -44,11 +46,11 @@ A **replacement** is expected to behave the same but may produce different
 instructions. A **research** function is understood or drafted but is not yet
 inserted into the hybrid executable.
 
-| Status | What it means |
-| --- | --- |
-| `research` | Notes or source exist, but the function is not inserted. |
-| `replacement` | The behavior is understood; compiled bytes may differ. |
-| `matching` | The compiled output is byte-for-byte identical. |
+| Status        | What it means                                            |
+| ------------- | -------------------------------------------------------- |
+| `research`    | Notes or source exist, but the function is not inserted. |
+| `replacement` | The behavior is understood; compiled bytes may differ.   |
+| `matching`    | The compiled output is byte-for-byte identical.          |
 
 ## Can I contribute?
 
@@ -68,4 +70,4 @@ copyrighted binaries, and save data are not. The repository stores original
 reimplementations, function metadata, build tooling, and documentation only.
 
 This is a research and preservation effort—not a game download, PC port, or
-substitute for owning *Tears of the Kingdom*.
+substitute for owning _Tears of the Kingdom_.
