@@ -28,17 +28,17 @@ Only declared function slots are replaced. Every other executable byte remains
 from your locally extracted game.
 
 !!! warning "Bring your own game"
-    This repository must not contain Nintendo executables, keys, game assets,
-    saves, or generated pseudocode. Use only a legally dumped copy of your own
-    game and keys.
+This repository must not contain Nintendo executables, keys, game assets,
+saves, or generated pseudocode. Use only a legally dumped copy of your own
+game and keys.
 
 ## Current terminology
 
-| Status | Meaning |
-| --- | --- |
-| `research` | Source or notes exist, but the function is not inserted. |
+| Status        | Meaning                                                     |
+| ------------- | ----------------------------------------------------------- |
+| `research`    | Source or notes exist, but the function is not inserted.    |
 | `replacement` | Expected to behave equivalently, but compiled bytes differ. |
-| `matching` | Compiled output is byte-for-byte identical to the original. |
+| `matching`    | Compiled output is byte-for-byte identical to the original. |
 
 New contributors should aim for a small, well-understood `research` function
 first. Matching can come later.

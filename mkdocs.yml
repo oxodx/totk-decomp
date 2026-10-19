@@ -18,14 +18,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: green
+      primary: purple
       accent: teal
       toggle:
         icon: material/weather-night
         name: Use dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
+      primary: purple
       accent: teal
       toggle:
         icon: material/weather-sunny
