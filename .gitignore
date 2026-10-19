@@ -1,0 +1,30 @@
+# User-supplied copyrighted inputs and generated derivatives
+baserom/
+build/
+extract/
+keys/
+.tools/
+analysis/
+ghidra-project/
+pseudocode/
+*.xci
+*.nca
+
+# Local configuration
+config/local.toml
+__pycache__/
+*.pyc
+
+# Additional Switch executable formats
+*.nso
+*.nro
+*.nsp
+*.nacp
+
+# Generated disassembly
+*.asm
+*.s
+
+# Temporary analysis files
+*.elf
+*.map

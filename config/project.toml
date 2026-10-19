@@ -1,0 +1,18 @@
+[project]
+name = "The Legend of Zelda: Tears of the Kingdom"
+title_id = "0100F2C0115B6000"
+version = "1.0.0"
+program = "main"
+
+[input]
+xci = "~/Games/roms/switch/TOTK [0100F2C0115B6000][v0].xci"
+# Optional overrides belong in config/local.toml:
+# keys = "~/.switch/prod.keys"
+# hactool = "/path/to/hactool"
+
+[output]
+atmosphere = "build/atmosphere"
+# An XCI is intentionally opt-in. Set an audited local packer in local.toml.
+# The command must accept: <original-xci> <replacement-exefs> <output-xci>
+# xci_packer = "/absolute/path/to/totk-xci-pack"
+xci = "build/TOTK-decomp-v0.xci"

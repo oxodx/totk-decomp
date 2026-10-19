@@ -1,0 +1,17 @@
+address,size,name,status,source
+# Addresses here are raw NSO text offsets. Current Ghidra exports are based at
+# 0x100000, so pseudocode address 0x1a01c0 maps to text offset 0x0a01c0.
+0x000a0120,0xa0,findSubstringIgnoreCase,research,src/KingSystem/Util/findSubstringIgnoreCase.cpp
+0x000a01c0,0x64,findLastCharacterIndex,replacement,src/KingSystem/Util/findLastCharacterIndex.cpp
+0x000a0224,0x8,stringEquals,matching,src/KingSystem/Util/stringEquals.cpp
+0x000a0660,0x28,appendString,replacement,src/KingSystem/Util/appendString.cpp
+0x000a40d0,0x2c,isAsciiWhitespace,replacement,src/KingSystem/Util/isAsciiWhitespace.cpp
+0x000a4100,0x1c,isNullOrEmpty,matching,src/KingSystem/Util/isNullOrEmpty.cpp
+0x000a4260,0x68,compareStringsIgnoreCase,replacement,src/KingSystem/Util/compareStringsIgnoreCase.cpp
+0x000a42d0,0x1c,copyBytesIfPresent,replacement,src/KingSystem/Util/copyBytesIfPresent.cpp
+0x000a4360,0x4,findCharacter,matching,src/KingSystem/Util/findCharacter.cpp
+0x000a4500,0x34,compareStrings,replacement,src/KingSystem/Util/compareStrings.cpp
+0x000a4540,0x8c,endsWith,replacement,src/KingSystem/Util/endsWith.cpp
+0x000a45d0,0x30,findCharacterIndex,replacement,src/KingSystem/Util/findCharacterIndex.cpp
+0x000a4600,0x6c,findCharacterInRange,replacement,src/KingSystem/Util/findCharacterInRange.cpp
+0x000a4670,0x74,equalsBytes,replacement,src/KingSystem/Util/equalsBytes.cpp

@@ -1,0 +1,11 @@
+address,name,kind
+# Raw NSO addresses. Add a row here to bind original code/data both in the C++
+# linker and in Ghidra. Names must be valid C/C++ identifiers.
+0x000a4360,findCharacter,function
+0x000a4500,compareStrings,function
+0x000a0688,insertStringRange,function
+0x02aa4690,findCharacterImpl,function
+0x02aa4310,stringLength,function
+0x02aa47b0,locateCharacter,function
+0x02aa4680,copyMemory,function
+0x02aa4320,compareMemory,function

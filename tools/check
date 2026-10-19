@@ -1,0 +1,11 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -i python3 -p python3
+"""Check the built executable against the original decompressed segments."""
+
+import decomp
+
+def main() -> None:
+  decomp.cmd_verify(decomp.load_config(), None)
+
+if __name__ == "__main__":
+  decomp.entrypoint(main)
