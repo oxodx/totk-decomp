@@ -1,6 +1,8 @@
 address,size,name,status,source
 # Addresses here are raw NSO text offsets. Current Ghidra exports are based at
 # 0x100000, so pseudocode address 0x1a01c0 maps to text offset 0x0a01c0.
+0x00004f20,0x5c0,sortParticleEntriesAscending,replacement,src/KingSystem/Effect/sortParticleEntriesAscending.cpp
+0x00005ad0,0x5c0,sortParticleEntriesDescending,replacement,src/KingSystem/Effect/sortParticleEntriesDescending.cpp
 0x000a0120,0xa0,findSubstringIgnoreCase,research,src/KingSystem/Util/findSubstringIgnoreCase.cpp
 0x000a01c0,0x64,findLastCharacterIndex,replacement,src/KingSystem/Util/findLastCharacterIndex.cpp
 0x000a0224,0x8,stringEquals,matching,src/KingSystem/Util/stringEquals.cpp
