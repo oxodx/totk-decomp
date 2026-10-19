@@ -4,10 +4,10 @@ unsigned char lowerAscii(unsigned char character) {
     return character + ('a' - 'A');
   return character;
 }
-} // namespace
+}  // namespace
 
-extern "C" __attribute__((minsize)) int
-compareStringsIgnoreCase(const char *left, const char *right) {
+extern "C" __attribute__((minsize)) int compareStringsIgnoreCase(const char* left,
+                                                                 const char* right) {
   for (;;) {
     const unsigned char rawLeft = *left;
     const unsigned char rawRight = *right;
